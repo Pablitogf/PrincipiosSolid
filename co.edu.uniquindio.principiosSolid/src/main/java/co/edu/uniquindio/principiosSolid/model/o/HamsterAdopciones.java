@@ -1,8 +1,8 @@
 package co.edu.uniquindio.principiosSolid.model.o;
 
-public class Audifonos extends Articulo{
+public class HamsterAdopciones extends AnimalAdopciones {
     @Override
-    public int precioArticulo() {
+    public int precioAnimal() {
         return 130000;
     }
 }

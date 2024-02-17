@@ -1,9 +1,9 @@
 package co.edu.uniquindio.principiosSolid.model.o;
 
-public class Mouse extends Articulo{
+public class PerroAdopciones extends AnimalAdopciones {
 
     @Override
-    public int precioArticulo() {
+    public int precioAnimal() {
         return 150000;
     }
 }

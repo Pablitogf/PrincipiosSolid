@@ -4,16 +4,16 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Articulo> listaArticulos = new ArrayList<>();
-        listaArticulos.add(new Audifonos());
-        listaArticulos.add(new Mouse());
-        listaArticulos.add(new Teclado());
-        imprimirListaArticulos(listaArticulos);
+        ArrayList<AnimalAdopciones> listaAnimalAdopciones = new ArrayList<>();
+        listaAnimalAdopciones.add(new HamsterAdopciones());
+        listaAnimalAdopciones.add(new PerroAdopciones());
+        listaAnimalAdopciones.add(new GatoAdopciones());
+        imprimirListaAnimal(listaAnimalAdopciones);
     }
 
-    public static void imprimirListaArticulos(ArrayList<Articulo> listaArticulo){
-        for (Articulo articulo : listaArticulo){
-            System.out.println(articulo.precioArticulo());
+    public static void imprimirListaAnimal(ArrayList<AnimalAdopciones> listaAnimalAdopciones){
+        for (AnimalAdopciones animalAdopciones : listaAnimalAdopciones){
+            System.out.println(animalAdopciones.precioAnimal());
         }
     }
 }
