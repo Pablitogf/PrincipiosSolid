@@ -1,5 +1,5 @@
 package co.edu.uniquindio.principiosSolid.model.i;
 
-public interface IAnimalAereo {
+public interface IVolar {
     void volar();
 }

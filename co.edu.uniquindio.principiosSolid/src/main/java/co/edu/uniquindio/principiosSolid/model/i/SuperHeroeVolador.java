@@ -1,13 +1,13 @@
 package co.edu.uniquindio.principiosSolid.model.i;
 
-public class Aguila implements IAnimal, IAnimalAereo {
+public class SuperHeroeVolador extends SuperHeroe implements ISuperFuerza, IVolar{
     @Override
-    public void comer() {
-        //-
+    public void superFuerza() {
+
     }
 
     @Override
     public void volar() {
-        //-
+
     }
 }

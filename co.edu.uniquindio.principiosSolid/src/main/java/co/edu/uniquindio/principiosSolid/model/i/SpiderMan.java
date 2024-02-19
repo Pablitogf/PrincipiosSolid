@@ -1,5 +1,5 @@
 package co.edu.uniquindio.principiosSolid.model.i;
 
-public interface IAnimalAcuatico {
-    void nadar();
+public class SpiderMan extends SuperHeroeTrepamuros{
+
 }
